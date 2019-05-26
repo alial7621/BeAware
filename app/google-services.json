@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "678905547908",
+    "firebase_url": "https://be-aware-234fa.firebaseio.com",
+    "project_id": "be-aware-234fa",
+    "storage_bucket": "be-aware-234fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678905547908:android:3da442553f65ca91",
+        "android_client_info": {
+          "package_name": "com.pariana.beaware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678905547908-grqvrv2snrde5pd1eoeb6rm24f1vii1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pariana.beaware",
+            "certificate_hash": "437faa63fa110b1218a9fa528b4e4e87a079c988"
+          }
+        },
+        {
+          "client_id": "678905547908-5hne7mp7tnn180qti3l309enitd8lpjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyoEH6eULJzaqe2VvLtLY-R5nFYxH_X4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678905547908-5hne7mp7tnn180qti3l309enitd8lpjn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

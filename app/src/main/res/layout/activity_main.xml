@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.pariana.beaware.CurvedBottomNavigationView
+            android:id="@+id/curved_bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="40dp"
+        android:id="@+id/lin_id"
+        android:background="@drawable/oval">
+
+        <com.sdsmdg.harjot.vectormaster.VectorMasterView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/fab1"
+            android:layout_margin="12dp"
+            app:elevation="6dp"
+            android:layout_gravity="center"
+            app:vector_src="@drawable/ic_cloud_circle_black_24dp"
+            />
+
+        <com.sdsmdg.harjot.vectormaster.VectorMasterView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/fab2"
+            android:layout_margin="12dp"
+            app:elevation="6dp"
+            android:layout_gravity="center"
+            app:vector_src="@drawable/ic_g_translate_black_24dp"
+            android:visibility="gone"
+            />
+
+        <com.sdsmdg.harjot.vectormaster.VectorMasterView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/fab"
+            android:layout_margin="12dp"
+            app:elevation="6dp"
+            android:layout_gravity="center"
+            app:vector_src="@drawable/ic_account_circle_black_24dp"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
